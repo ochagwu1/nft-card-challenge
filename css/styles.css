@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(217, 54%, 11%) ;
+    padding: 2em;
+}
+
+.container{
+background-color: hsl(216, 50%, 16%);
+border-radius: 1.6em;
+padding:2em;
+margin: 0 auto;
+box-shadow:0 15px 20px rgba(0, 0, 0, 0.8) ;
+}
+.d-img{
+    width: 100%;
+    height: auto;
+    border-radius: .8em;
+}
+.bluebox{
+    background:hsl(178, 100%, 50%);
+    position: absolute;
+    top: 4em;
+    border-radius: .8em;
+    opacity:0;
+    height: 23.2em;
+    width: 23.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.bluebox:hover{
+    opacity: .4;
+}
+
+.writeup{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+}
+.writeup>h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.8em;
+    font-weight: 600;
+}
+.writeup>h1:hover{
+color: hsl(178, 100%, 50%);
+cursor: pointer;
+}
+.writeup>p{
+    color: hsl(215, 51%, 70%);
+    font-size: 1.3em;
+    width: 18em;
+    margin-top: 1em;
+    line-height: 1.4;
+}
+.bellow-writeup{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+margin-top: 1.5em;
+}
+.b-w-t{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+.b-w-t>h3{
+    color: hsl(178, 100%, 50%);
+    margin-left: 0.5em;
+}
+.b-w-t>p{
+    color: hsl(215, 51%, 70%);
+    margin-left: 0.5em;
+    font-size: 1.2em;
+}
+.line{
+    border: 1px solid hsl(215, 32%, 27%);
+}
+.end-part{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1.5em;
+}
+.end-part>div>img{
+    width: 3em;
+    border-radius: 50%;
+    border:1px solid #fff;
+}
+.end-part>p{
+    color: #fff;
+    margin-left: 1.5em;
+    word-spacing: .2em;
+}
+.end-part>p:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+span{
+    color: hsl(215, 51%, 70%);
+}
+.attribution { 
+    font-size: 11px; text-align: center;
+    margin-top: 5em;
+    color: white;
+ }
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
+@media screen and (min-width: 757px) {
+    .container{
+        max-width: 25em;
+    }
+    .bluebox{
+        height: 21em;
+        width: 21em;
+    }
+}
